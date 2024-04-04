@@ -1,0 +1,24 @@
+datasources:
+  - name: local
+    user: root
+    password:
+    host: localhost
+    port: 3306
+    db: testdb
+
+variables:
+  - name: local
+    BASE_URL: http://localhost:8000
+    BASE_FE_URL: http://localhost:3000
+  - name: coll
+    BASE_URL:
+    BASE_FE_URL:
+  - name: production
+    BASE_URL:
+    BASE_FE_URL:
+
+
+constants:
+      example: constantOne
+
+
